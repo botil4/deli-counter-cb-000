@@ -10,6 +10,7 @@ end
 
 def take_a_number(queue, name)
   puts "Welcome, #{name}. You are number #{queue.length + 1} in line."
+  queue << name
 end
 
 def now_serving(queue)
