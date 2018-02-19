@@ -14,5 +14,5 @@ def take_a_number(queue, name)
 end
 
 def now_serving(queue)
-  queue.length == 0 ? (puts "There is nobody waiting to be served!") : (puts "Currently serving #{queue.pop}.")
+  queue.length == 0 ? (puts "There is nobody waiting to be served!") : (puts "Currently serving #{queue.shift}.")
 end
